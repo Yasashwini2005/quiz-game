@@ -1,0 +1,2616 @@
+#include <stdio.h>
+#include<string.h>
+#include<time.h>
+int answer=0;
+int difficultylevel=0;
+int currentscore=0;
+void easy1()
+{
+    printf("In the rhyme Humpty Dumpty where was Humpty and Dumpty sitting?\n");
+    printf("On a wall.\n 2.In a tree\n 3.By the river\n 4.On a chair\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("Which rhyme follows a lamb following its owner to school");
+    printf("1.Jack and Hill\n 2. Mary had a little lamb\n 3.Little Miss Muffet.\n 4.The itsy Bitsy spider\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("\033[1;33myour current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which rhyme about dish and spoon running away together\n");
+    printf("1.Little Muss muffet\n 2.Humpty Dumpty\n 3.Jack and Hill\n 4.Hey Diddle Diddle\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+     printf("Which rhyme mentions spider chasing fly?\n");
+    printf("1.london bridge is falling down\n 2.pat a cake\n 3.Bitsy spider\n 4.jack and hill\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which rhyme is believed to have political and historical references to queen mary of england");
+    printf("1.Mary Mary Quite contrary\n 2.Little Miss Muffet\n 3.Jack and Hill\n 4.Mary had alittle lamb\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which nursery rhyme inspired by an event involving king Richard 3 of England?\n");
+    printf("1.Humpty Dumpty\n 2.Little Jack Horner\n 3.Hey Diddle Diddle\n 4.Sing a song of spence\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+
+
+
+
+    
+}
+   void medium1()
+   {printf("what did cow jump over in Hey Diddle Diddle?\n");
+    printf("1.moon\n 2.candlestick\n 3.spoon\n 4.fence\n");
+    scanf("%d", &answer);
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("which rhyme associated with number of days in each month?\n");
+    printf("1.Humpty Dumpty\n 2.Jack and Hill\n 3.Thirty days Hath September\n 4.Hick and dock\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("what is the moral of the rhyme Twinkle Twinkle little star?\n");
+    printf("1.Appreciation of natural wonders\n 2.carelessness\n 3.loyality\n 4.Humanity\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        
+        break;
+    }
+    printf("what is the moral of the rhyme Humpty Dumpty sat on wall?\n");
+    printf("1.Consequences of carelessness\n 2.Humanity\n 3.king ruling\n 4.honesty\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("what is moral of rhyme mary had a little lomb");
+    printf("1.appreciation of natural wonders\n 2.integrity\n 3.carelessness\n 4.kindness towards animals\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+       
+        break;
+    }
+    
+    
+       
+   }
+   void difficult1(){
+       printf("what is moral of rhyme row, row your boat, gently down stream");
+    printf("1.cooperation and team work\n 2.appreciation of wonders\n 3.kindness towards animals\n 4.honesty\n");
+    scanf("%d", &answer);
+    
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("what is moral of rhyme little miss muffet");
+    printf("1.being fear\n 2.overcoming fear\n 3.kindness\n 4.laziness\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("rain rain go away come again another day tells about");
+    printf("1.morality\n 2.kindness\n 3.health\n 4.patience\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+         currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        
+        break;
+    }
+    printf("london bridge is falling down falling down tells about");
+    printf("1.culture\n 2.bridges\n 3.preservation of cultural landmarks\n 4.USA\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+         currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("old mac donald ha da farm tells about ");
+    printf("1.burger\n 2.farm life animal sounds\n 3.old age\n 4.arts\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is  correct\n");
+         currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not  correct\n");
+        
+       
+        break;
+    }
+    
+    
+       
+   
+   }
+   void easy2()
+{
+    printf("which planet is known as red planet?");
+    printf("1.mars\n 2.jupiter\n 3.venus\n 4.saturn\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("what is chemical symbol of element gold?");
+    printf("1.Ag\n 2.Fe\n 3.Au\n 4.Mg\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not   correct\n");
+        
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which country is home to the famous Taj Mahal?\n");
+    printf("1.Italy\n 2.Egypt\n 3.India\n 4.US\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+     printf("what is the largest ocean in the world");
+    printf("1.atlantic ocean\n 2.pacific ocean\n 3.arctic ocean\n 4.Indian ocean\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which is the largest land locked country in the world?\n");
+    printf("1.Russia\n 2.India\n 3.Mongolia\n 4.Kazakhstan\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+ printf("which famous scientist developed the theory of relativity?\n");
+    printf("1.Newton\n 2.Albert Einstein\n 3.Galileo Galilei\n 4.Curie\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is correct\n");
+       
+        break;
+    }
+
+
+
+
+    
+}
+   void medium2()
+   {printf("which country is famous for great barrier reef\n");
+    printf("1.Australia\n 2.Brazil\n 3.Mexico\n 4.Indonesia\n");
+    scanf("%d", &answer);
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("which is the largest desert in the world?\n");
+    printf("1.Gobi desert\n 2.atacama desert\n 3.Sahara desert\n 4.Klahari desert\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("wWhich planet is known for its beautiful rings?\n");
+    printf("1.Saturn\n 2.uranus\n 3.jupiter\n 4.Neptune\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        
+        break;
+    }
+    printf("what is the tallest mountain in the world?\n");
+    printf("1.Fuji\n 2.Mount Everest\n 3.Mc Kinley \n 4.Kilimanjaro\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("which country is famous for ancient pyramids?\n");
+    printf("1.mexico\n 2.Greece\n 3.Italy\n 4.Egypt\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+       
+        break;
+    }
+    
+    
+       
+   }
+   void difficult2(){
+       printf("which country is known a sland of rising sun");
+    printf("1.US\n 2.China\n 3.India\n 4.Japan\n");
+    scanf("%d", &answer);
+    
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+    printf("what is the national animal of canada?\n");
+    printf("1.moose\n 2.Bald angle\n 3.Beaver\n 4.polar bear\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("which country is the largest producer of coffee in the world?\n");
+    printf("1.Brazil\n 2.Vietnam\n 3.China\n 4.Japan\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not  correct\n");
+        
+        
+        
+        break;
+    }
+    printf("which planet is known as evening star?\n");
+    printf("1.jupiter\n 2.venus\n 3.saturn\n 4.moon\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("which is the largest waterfall in the world?\n");
+    printf("1.nilgiri falls\n 2.victoria falls \n 3.Angel falls\n 4.none\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not   correct\n");
+        
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+        
+       
+        break;
+    }
+    
+    
+       
+   
+   }
+void function1()
+   {int answer=0;
+
+    printf("what is the purpose of using rhyme in poetry?\n\n");
+    printf("1.to establish setting characters\n2.to create melodic and musical quality \n3. figurative language\n4. to convey deep and complex meanings \n");
+    scanf("%d",&answer);
+if(answer==2)
+printf("answer correct");
+else
+printf("answer not correct\n");
+printf("what do you feel about the question\n");
+printf("1.easy\n 2.medium\n 3.hard\n");
+scanf("%d" , &difficultylevel);
+switch(difficultylevel){
+    case 1:medium1();
+    break;
+    case 2:difficult1();
+    break;
+    case 3:easy1();
+    break;
+    default: printf("you have entered no number or wrong number\n");
+}
+}
+  void function2()
+   {int answer=0;
+
+    printf("what is the longest river in the wiorld?\n\n");
+    printf("1.amazon river\n2. yangtze river\n3.nile river \n4.none\n");
+    scanf("%d",&answer);
+if(answer==3)
+printf("answer correct\n");
+else
+printf("answer not correct\n");
+printf("what do you feel about the question\n");
+printf("1.easy 2.medium\n 3.hard\n");
+scanf("%d" , &difficultylevel);
+switch(difficultylevel){
+    case 1:medium2();
+    break;
+    case 2:difficult2();
+    break;
+    case 3:easy2();
+    break;
+    default: printf("you have entered no number or wrong number\n");
+}
+}
+void easy3()
+{
+    printf("I speak without mouth and hear without ears . i have no body but i come alive with wind what am i?");
+    printf("1.Music\n 2.Echo\n 3.whisper\n 4.noise\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("wi have keys but no locks i have space but no room you can enter but u can't go outside who am i ?\n");
+    printf("1.globe\n 2.piano\n 3.computer\n 4.toys\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is   correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+ printf("i have cities but no houses forests but no trees and rivers but no water what am i\n");
+    printf("1.map\n 2.globe \n 3.book\n 4.pen\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not  correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+       
+        break;
+    }
+     printf("the more u take the more u leave behind who am i?\n");
+    printf("1.breath\n 2.time\n 3.footsteps\n 4.sand\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("i am taken from mine and shut up in wooden case from which i am never released and yet i am used by almost everyone. what am i?\n");
+    printf("1.knowledge\n 2.pencil\n 3.eraser\n 4.chocolate\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("what has heart that does not beat");
+    printf("1.robot\n 2.globe\n 3.clock\n 4.pencil\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+
+
+
+
+    
+}
+   void medium3()
+   {
+       printf("what comes once in minute twice in moment but never in thousand years?\n");
+    printf("1.the letter M \n 2.happiness \n 3.opportunity\n 4.chance\n");
+    scanf("%d", &answer);
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("i can fly without wings i can cry without eyes wherever I go darkness follows me what am i?\n");
+    printf("1.cloud\n 2.moon\n 3.wind\n 4.shadow\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        
+        break;
+        case 4:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+       
+        break;
+    }
+    printf("what has neck but no head");
+    printf("1.shirt\n 2.pencil\n 3.bottle\n 4.giraffe\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+       
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        
+        break;
+    }
+    printf("i am full of holes byt i can still hold water what am i");
+    printf("1.teapot\n 2.strainer\n 3.calender\n 4.sponge\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+       
+        break;
+    }
+    printf("i can be cracked made told and played what am i");
+    printf("1.code\n 2.joke\n 3.riddle\n 4.music\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+    }
+   }
+   void difficult3(){
+       printf("what has face that doesn't frown hands that don't wave and runs but stays in place?\n");
+    printf("1.watch\n 2.calender\n 3.clock\n 4.sun\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        break;
+    }
+    printf("the more you have of it the less you see what is it?\n");
+    printf("1.light\n 2.knowledge\n 3.darkness\n 4.book\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 4:printf(" your answer is  not correct\n");
+        break;
+    }
+    printf("i have branches but no fruit trunk or leaves what am i ");
+    printf("1.bank\n 2.family\n 3.government\n 4.library\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        break;
+    }
+    printf("what can you catch but not throw\n");
+    printf("1.ball\n 2.cold\n 3.fish\n 4.book\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 3:printf(" your answer is not  correct\n");
+        break;
+        case 4:printf(" your answer is  not correct\n");
+        break;
+    }
+    printf("what has hands but can't clap?\n");
+    printf("1.statue\n 2.glove\n 3.clock\n 4.robot\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 4:printf(" your answer is  not  correct\n");
+        break;
+    }
+   }
+void function3()
+{
+    printf("what is always infront of you but can't be seen?\n\n");
+    printf("1.thoughts \n2.mirror \n3. air\n4. future\n");
+    scanf("%d",&answer);
+if(answer==4)
+printf("answer correct\n");
+else
+printf("answer not correct");
+printf("what do you feel about the question\n");
+printf("1.easy 2.medium\n 3.hard\n");
+scanf("%d" , &difficultylevel);
+switch(difficultylevel){
+    case 1:medium3();
+    break;
+    case 2:difficult3();
+    break;
+    case 3:easy3();
+    break;
+    default: printf("you have entered no number or wrong number\n");
+}
+}
+void easy4()
+{
+    printf("Which cartoon features talking dog?\n");
+    printf("1.Scooby Doo\n 2.Tom and jerry\n 3.looney tunes\n 4.the flintstones\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which cartoon is known for his catchphrase  what's up doc\n");
+    printf("1.mickey mouse\n 2.Bugs bunny\n 3.Donald duck\n 4.daffy duck\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 3:printf(" your answer is not correct\n");
+        break;
+        case 4:printf(" your answer is not correct\n");
+        break;
+    }
+ printf("in cartton teenage mutant ninja turtles what type of animals ar the main characters?\n\n");
+    printf("1.cats\n 2.dogs\n 3.rats\n 4.turtles\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        break;
+        case 3:printf(" your answer is not correct\n");
+        break;
+        case 4:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+    }
+     printf("which cartoon features group of babies who can communicate with each other?\n");
+    printf("1.the powerpuff girls\n 2.bravo\n 3.rugrats\n 4.mickeymouse\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 4:printf(" your answer is not correct\n");
+        break;
+    }
+ printf("which cartoon features the adventures of young boy and his loyal dog in land of ooo");
+    printf("1.adventure time\n 2.steven universe\n 3.the fairly odd parents\n 4.gravityfalls\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        break;
+        case 3:printf(" your answer is not correct\n");
+        break;
+        case 4:printf(" your answer is not correct\n");
+        break;
+    }
+ printf("which cartoon features group of kindergarden aged superheroes with special abilities?\n");
+    printf("1.powerpuff girls\n 2.kim possible\n 3.teen titans go\n 4.PJ masks\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        break;
+        case 3:printf(" your answer is not correct\n");
+        break;
+        case 4:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+    }
+}
+   void medium4()
+   {printf("which cartoon character lives in pineapple under sea?\n");
+    printf("1.spongebob square plants\n 2.dora the explorer\n 3.mickey mouse\n 4.bart simpson\n");
+    scanf("%d", &answer);
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        break;
+        case 3:printf(" your answer is not correct\n");
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        break;
+    }
+    printf("in the Pokemon which creature is mascot of the franchise");
+    printf("1.charizad\n 2.bulbasaur\n 3.pikachu\n 4.squirtle\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("who is the primary antagonist in the Tom and Jerry");
+    printf("1.tom \n 2.jerry\n 3.none\n 4.both\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        break;
+        case 3:printf(" your answer is not correct\n");
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("which cartoon features young boy who can transform into different alien characters?\n");
+    printf("1.Ben 10\n 2.teen titans go\n 3.the powerpuff girls\n 4.kim possible\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("in the cartoon Avatar which element does Aang control");
+    printf("1.earth\n 2.fire\n 3.water\n 4.air\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+       
+        break;
+    }
+   }
+   void difficult4(){
+       printf("which cartton follows the adventures of group of talking ponies in magical land?\n");
+    printf("1.my little pony\n 2.mickey mouse\n 3.ninjas\n 4.jack and hill\n");
+    scanf("%d", &answer);
+    
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("which cartoon feature team of super heroes with names corresponding to their unique colors?\n");
+    printf("1.mickey mouse\n 2.powerpuff girls\n 3.ninjas\n 4.none\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        break;
+        case 2:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 3:printf(" your answer is not correct\n");
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("what is rat");
+    printf("1.\n 2.\n 3.\n 4.\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+         currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        
+        break;
+    }
+    printf("what is rat");
+    printf("1.\n 2.\n 3.\n 4.\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+         currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("what is rat");
+    printf("1.\n 2.\n 3.\n 4.\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is  correct\n");
+         currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not  correct\n");
+        
+       
+        break;
+    }
+   }
+void function4()
+{
+    
+    printf("what cartoon character wears red cap and blue overalls?\n\n");
+    printf("1.mickey mouse \n2.scooby doo \n3. mario\n4. spongebob\n");
+    scanf("%d",&answer);
+if(answer==3)
+printf("answer correct");
+else
+printf("answer not correct\n");
+printf("what do you feel about the question\n");
+printf("1.easy 2.medium\n 3.hard\n");
+scanf("%d" , &difficultylevel);
+switch(difficultylevel){
+    case 1:medium4();
+    break;
+    case 2:difficult4();
+    break;
+    case 3:easy4();
+    break;
+    default: printf("you have entered no number or wrong number");
+}
+}
+void aboveeasy1()
+{
+    printf("what is process of analyzing fingerprints caled?\n");
+    printf("1.forensic fingerprinting\n 2.dentistry\n 3.anthropology\n 4.entomology\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which type of evidence can be collected from crime scene and used for DNA analysis?\n");
+    printf("1.hair samples\n 2.all\n 3.footwear impressions\n 4.glass fragments\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("what is study of insects and their relation to crime scene called?\n\n");
+    printf("1.botany\n 2.toxicology\n 3.odontology\n 4.entomology\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+     printf("which tool used to collect trace evidence such as fibers from crime scene?\n");
+    printf("1.gloves\n 2.forceps\n 3.swabs\n 4.tweezers\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("the process of determinig age and ancestry of human skeletal remains called?\n");
+    printf("1.anthropology\n 2.pathology\n 3.toxicology\n 4.entomology\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which technique used to analyze chemical composition of drugs?\n");
+    printf("1.DNA profiling\n 2.ballistics analysis\n 3.spectroscopy\n 4.chromatography\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+}
+   void abovemedium1()
+   {printf("what is term for mark left at crime scene such as shoe print?\n");
+    printf("1.toolmark evidence\n 2.pattern evidence\n 3.shoe evidence\n 4.trace evidence\n");
+    scanf("%d", &answer);
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("what is process of determining cause manner time of death called?\n");
+    printf("1.anthropology\n 2.etymology\n 3.pathology\n 4.archaelogy\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("what method used to analyze handwriting and signatures");
+    printf("1.document examination\n 2.ballistics\n 3.profiling\n 4.toxicology\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        
+        break;
+    }
+    printf("what is study of distribution of firearm related evidence called?\n");
+    printf("1.ballistics\n 2.anthropology\n 3.entomology\n 4.odontology\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("chemical composition of unknown substances known by.......\n");
+    printf("1.DNA profiling\n 2.chromotography\n 3.anthropology\n 4.spectroscopy\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+       
+        break;
+    }
+   }
+   void abovedifficult1(){
+       printf("which discipline focuses on study of dental evidence in criminal investigations?\n");
+    printf("1.odontology\n 2.dentistry\n 3.spectroscopy\n 4.none\n");
+    scanf("%d", &answer);
+    
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("which technique used to analyze unique patterns of blood vessels in the back of eye for identification purposes?\n");
+    printf("1.odontology\n 2.retinal scanning\n 3.archaelogy\n 4.all\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("what is used to analyze unique patterns of veins in hand for identification purposes?\n");
+    printf("1.odontology\n 2.ballistics\n 3.retinal scanning\n 4.vascular scanning\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+         currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+    }
+    printf("study of blood for DNA analysis and identifiaction.........");
+    printf("1.botany\n 2.anthropology\n 3.serology\n 4.none\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+         currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("A three dimensional image formed by interference of light waves is called...........");
+    printf("1.image\n 2.hologram\n 3.photo\n 4.none\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is  correct\n");
+         currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not  correct\n");
+        
+       
+        break;
+    }
+   }
+   
+   void aboveeasy2()
+{
+    printf("who won the FIFA world cup in 2018");
+    printf("1.France\n 2.brazil\n 3.germany\n 4.argentina\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which country is considered widely as birth place of cricket?\n");
+    printf("1.India\n 2.Australia\n 3.England\n 4.South Africa\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not   correct\n");
+        
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which city hosted summer olympics 2020\n");
+    printf("1.London\n 2.India\n 3.Tokyo\n 4.Egypt\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+     printf("which country has won the most olympic gold medals in history of summer olympics");
+    printf("1.Russia\n 2.US\n 3.India\n 4.Egypt\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("in which sport can u perform slam dunk");
+    printf("1.Soccer\n 2.Tennis\n 3.Hockey\n 4.Basket ball\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+ printf("In which sports is the triple crown a prestigious achievement?\n");
+    printf("1.Tennis\n 2.Horse racing\n 3.Hockey\n 4.basket ball\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is correct\n");
+       
+        break;
+    }
+}
+   void abovemedium2()
+   {printf("which country has won the most world cup titles in men's soccer?\n\n");
+    printf("1.Brazil\n 2.US\n 3.Germany\n 4.Tennis\n");
+    scanf("%d", &answer);
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("which sport famous for high flying dunks and features NBA");
+    printf("1.Soccer\n 2.Football\n 3.Basketball\n 4.Tennis\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("which sport known for Grand slam tournaments");
+    printf("1.Tennis\n 2.cricket\n 3.football\n 4.basketball\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        
+        break;
+    }
+    printf("from which country did soccer originate?\n");
+    printf("1.brazil\n 2.England\n 3.Spain\n 4.US\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("which country is considered the birth place of baseball ");
+    printf("1.Brazil\n 2.India\n 3.Spain\n 4.US\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+       
+        break;
+    }
+   }
+   void abovedifficult2(){
+       printf("which country is known for originating the sport of golf?\n");
+    printf("1.US\n 2.India\n 3.England\n 4.Scotland\n");
+    scanf("%d", &answer);
+    
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+    printf("Sumo wrestling is traditional sport from which country?\n");
+    printf("1.CHina\n 2Korea.\n 3.Japan\n 4.India\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("which country is associated with sport of kabaddi?\n");
+    printf("1.India\n 2.China\n 3.Japan\n 4.Nepal\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not  correct\n");
+        
+        
+        
+        break;
+    }
+    printf("Hurling is primarily played in which country?\n");
+    printf("1.Scotland\n 2.Ireland\n 3.Japan\n 4.Germany\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("Table tennis origianted in which country?\n");
+    printf("1.Japan\n 2.INdia\n 3.England\n 4.Korea\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not   correct\n");
+        
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+        
+       
+        break;
+    }
+   }
+void abovefunction1()
+   {int answer=0;
+
+    printf("what is forensics\n");
+    printf("1. Scientific application of knowledge to solve various crimes\n2.related to foreign countries \n3. currency\n4. None\n");
+    scanf("%d",&answer);
+if(answer==1)
+printf("answer correct");
+else
+printf("answer not correct\n");
+printf("what do you feel about the question\n");
+printf("1.easy 2.medium\n 3.hard\n");
+scanf("%d" , &difficultylevel);
+switch(difficultylevel){
+    case 1:abovemedium1();
+    break;
+    case 2:abovedifficult1();
+    break;
+    case 3:aboveeasy1();
+    break;
+    default: printf("you have entered no number or wrong number");
+}
+}
+  void abovefunction2()
+   {int answer=0;
+
+    printf("which country known for originating the game of chess?\n\n");
+    printf("1.China\n2.US \n3.India \n4. Japan\n");
+    scanf("%d",&answer);
+if(answer==3)
+printf("answer correct");
+else
+printf("answer not correct\n");
+printf("what do you feel about the question\n");
+printf("1.easy 2.medium\n 3.hard\n");
+scanf("%d" , &difficultylevel);
+switch(difficultylevel){
+    case 1:abovemedium2();
+    break;
+    case 2:abovedifficult2();
+    break;
+    case 3:aboveeasy2();
+    break;
+    default: printf("you have entered no number or wrong number");
+}
+}
+void aboveeasy3()
+{
+    printf("which technology used to provide high speed wireless internet connectivity over long distances?\n");
+    printf("1.wifi 6\n 2.5G \n 3.NFC\n 4.Bluetooth\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which technology allows for real time language transition through smart phone apps and devices?\n");
+    printf("1.VR\n 2.AI\n 3.block chain\n 4.AR\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is   correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+    }
+ printf("which technology used to create immersive virtual experiences by simulating three dimensional environment?\n\n");
+    printf("1.VR\n 2.AI\n 3.Blockchain\n 4.IoT\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not  correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+       
+        break;
+    }
+     printf("which technology used to secure and verify digital transactions in decentralized and transparent manner?\n");
+    printf("1.AI\n 2.VR\n 3.Blochchain\n 4.All\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("which technology allows for seamless communication and data exchange between interconnected devices and systems?\n");
+    printf("1.Ai\n 2.IOT\n 3.VR\n 4.Robotics\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+ printf("Which technology used in creating three dimensional objects from digital designs?\n");
+    printf("1.5G\n 2.AI\n 3.3-D printing\n 4.Blockchain\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+        
+        break;
+    }
+}
+   void abovemedium3()
+   {
+       printf("which technology used to create more powerful and secure computer systems by leveraging quantum mechanics?\n");
+    printf("1.Quantum computing\n 2.AI and ML \n 3.3-D printing\n 4.Blockchain\n");
+    scanf("%d", &answer);
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("which technology allows for overlay of digital information on the world enhancing user's perception and interaction?\n");
+    printf("1.5G\n 2.VR\n 3.AI\n 4.AR\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        
+        break;
+        case 4:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+       
+        break;
+    }
+    printf("what is focused on creating humanoid robotics?\n");
+    printf("1.Blockchain\n 2.3-D printing\n 3.Robotics\n 4.None\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+       
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        
+        break;
+    }
+    printf("Biometric authentication useful for...........");
+    printf("1.none\n 2.chemical compounds\n 3.communiaction\n 4.identifying individuals\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+       
+        break;
+    }
+    printf("VR technology used in ..........");
+    printf("1.Gaming\n 2.All\n 3.education\n 4.entertainment\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is  not  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+       
+        break;
+    }
+   }
+   void abovedifficult3(){
+       printf("what is function of router in computer network?\n");
+    printf("1.stores and manages website data\n 2.converts digital signals to analog\n 3.connects multiple networks together\n 4.power to network devices\n");
+    scanf("%d", &answer);
+    
+    
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is not  correct\n");
+        
+        break;
+    }
+    printf("what is the purpose of firewall in computer security?\n");
+    printf("1.scans and removes computer viruses\n 2.speeds up internet connectivity\n 3.prevents unauthorized access to network\n 4.all\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+       
+        break;
+        case 3:printf(" your answer is  correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("which is an example of AR");
+    printf("1.Google glass\n 2.Fitbit\n 3.oculus rift\n 4.none\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        break;
+        case 3:printf(" your answer is not correct\n");
+        
+        break;
+        case 4:printf(" your answer is not correct\n");
+         
+        
+        
+        break;
+    }
+    printf("which wireless communication technology used for short range exchange data between devices");
+    printf("1.Wifi\n 2.Bluetooth\n 3.NFC\n 4.LTE\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not correct\n");
+       
+        break;
+        case 2:printf(" your answer is   correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 3:printf(" your answer is not  correct\n");
+         
+        break;
+        case 4:printf(" your answer is  not correct\n");
+       
+        break;
+    }
+    printf("what is purpose of version control software?\n");
+    printf("1.protects against hardware failures \n 2.optimizes web speed\n 3.tracks and manages changes to source code and files\n 4.provides secure authentication and access control\n");
+    scanf("%d", &answer);
+    switch(answer)
+    {
+        case 1:printf(" your answer is not  correct\n");
+        
+    
+        break;
+        case 2:printf(" your answer is not  correct\n");
+        
+        
+        break;
+        case 3:printf(" your answer is correct\n");
+        currentscore=currentscore+5;
+        printf("your current score is %d" , currentscore);
+        
+        break;
+        case 4:printf(" your answer is  not  correct\n");
+        
+       
+        break;
+    }
+    
+    
+       
+   
+   }
+void abovefunction3()
+{
+    
+    printf("what is purpose of API?\n\n");
+    printf("1. protects against unauthorized access to network\n2.stores and manages user passwords \n3. All\n4.allows different software applications to communicate with each other\n");
+    scanf("%d",&answer);
+if(answer==4)
+printf("answer correct");
+else
+printf("answer not correct\n");
+printf("what do you feel about the question\n");
+printf("1.easy 2.medium\n 3.hard\n");
+scanf("%d" , &difficultylevel);
+switch(difficultylevel){
+    case 1:abovemedium3();
+    break;
+    case 2:abovedifficult3();
+    break;
+    case 3:aboveeasy3();
+    break;
+    default: printf("you have entered no number or wrong number");
+}
+}
+
+int main() {
+    
+    int choice=0;
+    int choice1=0;
+    char name[100];
+    int age;
+    int interest=0;
+      time_t startTime = time(NULL);
+    printf("\033[31m        .-''''''-.                 .-''''''-.\n");
+    printf("\033[31m      .'          '.             .'          '.\n");
+    printf("\033[31m     /   O      O   \\          /   O      O   \\\n");
+    printf("\033[31m    :                :         :                :\n");
+    printf("\033[31m    |                |         |                |\n");
+    printf("\033[31m    : ',          ,' :         : ',          ,' :\n");
+    printf("\033[31m     \\  '-......-'  /          \\  '-......-'  /\n");
+    printf("\033[31m      '.          .'            '.          .'\n");
+    printf("\033[31m        '-......-'                '-......-'\n");
+
+    printf("\033[1;33m          ╔═════════════════════════════════════╗\n");
+    printf("          ║                                     ║\n");
+    printf("          ║          WELCOME TO QUIZ            ║\n");
+    printf("          ║                                     ║\n");
+    printf("          ╚═════════════════════════════════════╝\033[0m\n");
+    printf("\033[1;34menter your name\n");
+    scanf("%s",&name);
+    printf("enter your age\n");
+    scanf("%d",&age);
+    strcat(name, ",ALL THE BEST. PLAY WELL\n");
+    printf("%s", name);
+if(age<=10){{
+    printf("Choose you interest\n");
+    printf("enter 1 for rhymes\n enter 2 for general knowledge\n enter 3 for riddles\nenter 4 for cartoons");
+    scanf("%d",&choice);
+    
+}
+
+switch(choice)
+{
+    case 1:function1();
+    break;
+    case 2:function2();
+    break;
+    case 3:function3();
+    break;
+    case 4:function4();
+    break;
+}
+}
+
+else{{
+    printf("choose your interest\n");
+    printf("enter 1 for forensics \n enter 2 for sports\n enter 3 to get updated regarding latest technology\n" );
+    scanf("%d" , &choice1);
+}
+
+switch(choice1){
+
+    case 1:abovefunction1();
+    break;
+    case 2:abovefunction2();
+    break;
+    case 3:abovefunction3();
+    break;
+    default:printf("you didnt enter correct number");
+
+
+}
+}
+ time_t endTime = time(NULL);
+    double totalTime = difftime(endTime, startTime);
+
+    printf("\033[32mTotal time taken: %.2f seconds\n", totalTime);
+
+}
