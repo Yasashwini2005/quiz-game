@@ -13,3 +13,5 @@ User opens program
  Feedback and rating taken from user
  Exit quiz
  Some greetings displayed 
+
+this game also has GUI and impart colours in the texts
